@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img-car/10.png" type="image/x-icon" />
+    <style>
+      fieldset {
+        display: inline-block;
+      }
+    </style>
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <div id="container">
+        <fieldset>
+          <legend>Personal information:</legend>
+          <div class="inp-cont">
+            <label for="Firstname">First Name</label>
+            <input autofocus id="Firstname" />
+          </div>
+
+          <div class="inp-cont">
+            <label for="Lastname">Last Name</label>
+            <input id="Lastname" />
+          </div>
+
+          <div class="inp-cont">
+            <label for="bdaytime">Birthday</label>
+            <input type="datetime-local" id="bdaytime" />
+          </div>
+
+          <div class="radio-cont">
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" value="male" checked /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </div>
+          <br />
+          <div class="inp-cont">
+            <label for="Drive">Drive expirience</label>
+            <select id="Drive">
+              <option value="---">---</option>
+              <option value="1year">1 year</option>
+              <option value="2-3year">2-3year</option>
+              <option value=">3year">>3year</option>
+            </select>
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Contacts</legend>
+
+          <div class="inp-cont">
+            <label for="Email">Email</label>
+            <input id="Email" />
+          </div>
+          <div class="inp-cont">
+            <label for="Phone">Phone</label>
+            <input id="Phone" />
+          </div>
+
+          <div class="textarea-cont">
+            <label for="Adress">Adress</label> <br />
+            <textarea id="Adress" rows="5" cols="29"></textarea>
+          </div>
+        </fieldset>
+
+        <br />
+        <fieldset>
+          <legend>Car Info</legend>
+          <div class="inp-cont">
+            <label for="Brand">Brand</label>
+            <select id="Brand">
+              <option value="---">---</option>
+              <option value="Ford">Ford</option>
+            </select>
+          </div>
+
+          <div class="inp-cont">
+            <label for="Model">Model</label>
+            <select id="Model">
+              <option value="---">---</option>
+              <option value="Mustang">Mustang</option>
+            </select>
+          </div>
+
+          <div class="check-cont">
+            <label for="used">Used</label>
+            <input type="checkbox" id="used" value="used" />
+          </div>
+
+          <div class="radio-cont">
+            <label for="color"></label> <br />
+            <input type="radio" id="color" value="red" checked />Red
+            <input type="radio" name="color" value="black" checked />Black
+            <input type="radio" name="color" value="blue" checked />Blue
+            <input type="radio" name="color" value="white" checked />White
+            <input type="radio" name="color" value="grey" checked />Grey
+          </div>
+
+          <div id="range">
+            <label for="price">Price</label> <br />
+            <input
+              type="range"
+              id="price"
+              name="price"
+              min="10"
+              max="80"
+              step="10"
+              list="money"
+            />
+            <datalist id="money">
+              <option value="10" label="10"></option>
+              <option value="20" label="20"></option>
+              <option value="30" label="30"></option>
+              <option value="40" label="40"></option>
+              <option value="50" label="50"></option>
+              <option value="60" label="60"></option>
+              <option value="70" label="70"></option>
+              <option value="80" label="80"></option>
+            </datalist>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+    <br />
+    <div class="btn-cont">
+      <button type="button">Cancel</button>
+      <button type="button">Ok</button>
+    </div>
+  </body>
+</html>

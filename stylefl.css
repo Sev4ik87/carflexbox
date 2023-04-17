@@ -1,0 +1,146 @@
+html {
+  font-family: sans-serif;
+}
+.alltext {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+table {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 60%;
+  height: 70%;
+  table-layout: fixed;
+  border: 5px solid hsl(11, 88%, 47%);
+  margin: 30px 1px 100px 230px;
+}
+tr {
+  border: 2px solid rgb(46, 132, 237);
+}
+td {
+  border: 2px solid rgb(43, 32, 240);
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+}
+
+.Ford1 {
+  margin: 100px 10px 20px -10px;
+}
+.BMW1 {
+  margin: 80px 10px 35px 4px;
+}
+.toyota1 {
+  margin: 80px 10px 30px 5px;
+}
+
+header {
+  width: 100%;
+  height: 35px;
+  background-color: #1b4e70;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  line-height: 230px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+nav {
+  text-decoration-style: solid;
+  position: absolute;
+  bottom: -32px;
+  height: 60px;
+  line-height: 0px;
+  width: 100%;
+}
+.button {
+  color: #f5f2f2;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 2px;
+  text-decoration: none;
+  border: none;
+}
+.button:hover {
+  color: #d2d0d0;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 2px;
+  text-decoration: none;
+  border: none;
+}
+
+.textcols4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.textcols4-item {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height: 30%;
+  background: #f5f6f7;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+.textcols4-item + .textcols4-item {
+  margin-left: 5%;
+}
+span {
+  color: red;
+}
+
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textcols5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #053a6a;
+  height: 65px;
+}
+.textcols5-item {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height: 35px;
+  background: #0e2f51;
+  color: #f5f2f2;
+  text-align: center;
+  font-style: oblique;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+}
+.textcols5-item + .textcols5-item {
+  margin-left: 15%;
+}
