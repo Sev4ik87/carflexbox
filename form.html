@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img-car/10.png" type="image/x-icon" />
-    <style>
-      fieldset {
-        display: inline-block;
-      }
-    </style>
+   
     <title>Form</title>
   </head>
   <body>
@@ -35,7 +31,7 @@
 
           <div class="radio-cont">
             <label for="gender">Gender</label>
-            <input type="radio" id="gender" value="male" checked /> Male
+            <input type="radio" id="gender" name="gender" value="male"  /> Male
             <input type="radio" name="gender" value="female" /> Female
           </div>
           <br />
@@ -94,11 +90,11 @@
 
           <div class="radio-cont">
             <label for="color"></label> <br />
-            <input type="radio" id="color" value="red" checked />Red
-            <input type="radio" name="color" value="black" checked />Black
-            <input type="radio" name="color" value="blue" checked />Blue
-            <input type="radio" name="color" value="white" checked />White
-            <input type="radio" name="color" value="grey" checked />Grey
+            <input type="radio" id="color" name="color" value="Red"  />Red
+            <input type="radio" name="color" value="Black"  />Black
+            <input type="radio" name="color" value="Blue"  />Blue
+            <input type="radio" name="color" value="White"  />White
+            <input type="radio" name="color" value="Grey"  />Grey
           </div>
 
           <div id="range">
@@ -128,8 +124,8 @@
     </form>
     <br />
     <div class="btn-cont">
-      <button type="button">Cancel</button>
-      <button type="button">Ok</button>
+      <button type="reset">Cancel</button>
+      <button type="submit">Ok</button>
     </div>
   </body>
 </html>
